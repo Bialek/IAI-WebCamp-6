@@ -3,10 +3,10 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Content-Language" content="pl" />
     <meta name="description" content="IAI WEBCAMP#6" />
     <meta name="keywords" content="Webcamp, IAI-Shop.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IAI WEBCAMP#6</title>
     <!-- vendors styles-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -23,7 +23,7 @@
             </div>
             <div id="logo" class="col-1-3 flex">
                 <a href="#">
-                    <img class="img-fit" src="./img/logo.png" alt="logo">
+                    <img class="img-cover" src="./img/logo.png" alt="logo">
                 </a>
             </div>
             <div class="col-1-3 flex flex--alignCenter">
@@ -597,40 +597,160 @@
         </div>
     </header>
 
-    <main>
-        <!-- <section class="container slider">
-            <div>
-                <img class="img-fit" src="./img/banner1.png" alt="slide">
-            </div>
-            <div>
-                <img class="img-fit" src="./img/banner1.png" alt="slide">
-            </div>
-            <div>
-                <img class="img-fit" src="./img/banner1.png" alt="slide">
-            </div>
-        </section> -->
-        <section class="container banners">
+    <main class="container">
+        <section class="banners">
             <div>
                 <a href="1">
-                    <img class="img-fit" src="./img/banner1.png" alt="slide">
+                    <img src="./img/banner1.png" alt="slide">
                 </a>
             </div>
             <div>
                 <a href="1">
-                    <img class="img-fit" src="https://images.pexels.com/photos/265987/pexels-photo-265987.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="slide">
+                    <img src="./img/banner2.jpg" alt="slide">
                 </a>
             </div>
             <div>
                 <a href="1">
-                    <img class="img-fit" src="https://images.pexels.com/photos/301977/pexels-photo-301977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="slide">
+                    <img src="./img/banner3.jpg" alt="slide">
                 </a>
             </div>
-            <button id="prev">
+            <button class="arrows" id="prev">
                 <i class="fas fa-angle-left"></i>
             </button>
-            <button id="next">
+            <button class="arrows" id="next">
                 <i class="fas fa-angle-right"></i>
             </button>
+        </section>
+
+        <section class="categories">
+            <a href="#" class="categories__item">
+                <div>
+                    <img src="./img/c1.png" alt="category">
+                    <p>pielęgnacja i higiena</p>
+                    <img src="./img/c1.png" alt="category">
+                </div>
+            </a> 
+            <a href="#" class="categories__item">
+                <div>
+                    <img src="./img/c2.png" alt="category">
+                    <p>sen i odpoczynek</p>
+                    <img src="./img/c2.png" alt="category">
+                </div>
+            </a> 
+            <a href="#" class="categories__item">
+                <div>
+                    <img src="./img/c3.png" alt="category">
+                    <p>ciąża</p>
+                    <img src="./img/c3.png" alt="category">
+                </div>
+            </a> 
+            <a href="#" class="categories__item">
+                <div>
+                    <img src="./img/c4.png" alt="category">
+                    <p>karmienie</p>
+                    <img src="./img/c4.png" alt="category">
+                </div>
+            </a> 
+        </section>
+
+        <section class="products">
+            <h3>Nowości</h3>
+            <div class="products__wrapper">
+
+                <div class="products__item">
+                    <a href="#">
+                        <img src="./img/p1.jpg" alt="towel">
+                        <p>tkany kocyk z bawełny organicznej</p>
+                        <p>
+                            <span id="productsValue1">85,99</span>
+                            zł
+                        </p>
+                    </a>
+                </div>
+                <div class="products__item">
+                    <a href="#">
+                        <img src="./img/p2.jpg" alt="towel">
+                        <p>tkany kocyk z bawełny organicznej</p>
+                        <p>
+                            <span id="productsValue2">485,99</span>
+                            zł
+                        </p>
+                    </a>
+                </div>
+                <div class="products__item">
+                    <a href="#">
+                        <img src="./img/p3.jpg" alt="towel">
+                        <p>tkany kocyk z bawełny organicznej</p>
+                        <p>
+                            <span id="productsValue3">285,99</span>
+                            zł
+                        </p>
+                    </a>
+                </div>
+                <div class="products__item">
+                    <a href="#">
+                        <img src="./img/p4.jpg" alt="towel">
+                        <p>tkany kocyk z bawełny organicznej</p>
+                        <p>
+                            <span id="productsValue4">5,99</span>
+                            zł
+                        </p>
+                    </a>
+                </div>
+                <div class="products__item">
+                    <a href="#">
+                        <img src="./img/p1.jpg" alt="towel">
+                        <p>tkany kocyk z bawełny organicznej</p>
+                        <p>
+                            <span id="productsValue1">85,99</span>
+                            zł
+                        </p>
+                    </a>
+                </div>
+                <div class="products__item">
+                    <a href="#">
+                        <img src="./img/p2.jpg" alt="towel">
+                        <p>tkany kocyk z bawełny organicznej</p>
+                        <p>
+                            <span id="productsValue2">485,99</span>
+                            zł
+                        </p>
+                    </a>
+                </div>
+                <div class="products__item">
+                    <a href="#">
+                        <img src="./img/p3.jpg" alt="towel">
+                        <p>tkany kocyk z bawełny organicznej</p>
+                        <p>
+                            <span id="productsValue3">285,99</span>
+                            zł
+                        </p>
+                    </a>
+                </div>
+                <div class="products__item">
+                    <a href="#">
+                        <img src="./img/p4.jpg" alt="towel">
+                        <p>tkany kocyk z bawełny organicznej</p>
+                        <p>
+                            <span id="productsValue4">5,99</span>
+                            zł
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="info__control">
+                <button id="aktualności">aktualności</button>
+                <button id="blog">blog</button>
+                <button id="news">news</button>
+                <button id="nowości">nowości</button>
+                <button id="onas">o nas</button>
+            </div>
+            <div class="aktualności">
+
+            </div>
         </section>
     </main>
 
